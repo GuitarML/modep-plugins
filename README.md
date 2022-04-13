@@ -29,7 +29,7 @@ sudo cp -r <plugin.lv2> /usr/modep/lv2/
 If you are interested in compiling your own, or running on a target other than the Raspberry Pi 3, here are the links to the source code for the included plugins (see Readme's for build process):
 
  - [TS-M1N3](https://github.com/GuitarML/TS-M1N3/tree/mod) - TS-9 Guitar Pedal Emulator using Neural Networks
- - [DarkStar](https://github.com/GuitarML/DarkStar/tree/mod) - Emulation of a HT40 amp in overdrive mode using Neural Networks
+ - [DarkStar](https://github.com/GuitarML/DarkStar/tree/mod) - Emulation of a HT40 amp in overdrive using Neural Networks
 
 ## Info
 See [TreeFallSound](https://www.treefallsound.com/) for more info on the Pi-Stomp and how to build one.
