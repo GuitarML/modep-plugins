@@ -1,9 +1,9 @@
 # modep-plugins
 GuitarML Audio Plugins for MODEP on Raspberry Pi 3 
 
-Meta repository to host plugin binaries for [MODEP](https://github.com/BlokasLabs/modep)
+This is a meta repository to host plugin binaries for [MODEP](https://github.com/BlokasLabs/modep)
 
-Binaries are located in the Releases section. 
+Binaries can be downloaded from the [Releases section](https://github.com/GuitarML/modep-plugins/releases).
 
 These plugins have been tested using [Pi-Stomp](https://github.com/TreeFallSound/pi-stomp) hardware (Raspberry Pi 3 based). They should work for any Raspberry Pi 3 MODEP device. For running on Raspberry Pi 4 or an official MOD device, you will need to build specifically for your target.
 
