@@ -10,7 +10,8 @@ These plugins have been tested using [Pi-Stomp](https://github.com/TreeFallSound
 ## Deploy
 You can deploy these plugins to your MODEP device using the following secure copy method.
 ```
-# After turning on your device, open a terminal and use the following commands to copy the lv2 package to your device from another computer.
+# After turning on your device, open a terminal and use the following commands 
+#    to copy the lv2 package to your device from another computer.
 # Note: Default password for patchboxOS is "blokaslabs"
 
 scp -r <plugin.lv2> patch@patchbox.local:/home/patch  
