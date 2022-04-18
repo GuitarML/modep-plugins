@@ -3,6 +3,8 @@ GuitarML Audio Plugins for MODEP on Raspberry Pi 3
 
 This is a meta repository to host plugin binaries for [MODEP](https://github.com/BlokasLabs/modep)
 
+Check out the video demo on [YouTube](https://youtu.be/WpU084i9w0Q)
+
 ![app](https://github.com/GuitarML/modep-plugins/blob/main/pedalboard.jpg)
 
 ## Download
