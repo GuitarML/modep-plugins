@@ -14,13 +14,32 @@ Binaries can be downloaded from the [Releases section](https://github.com/Guitar
 These plugins have been tested using [Pi-Stomp](https://github.com/TreeFallSound/pi-stomp) hardware (Raspberry Pi 3 based). They should work for any Raspberry Pi 3 MODEP device running 32-bit PatchboxOS. For running on Raspberry Pi 4 or an official MOD device, you will need to build specifically for your target.
 
 ## Deploy
-You can deploy these plugins to your MODEP device using the following secure copy method.
+You can deploy these plugins to your MODEP device using one of the following methods
 ```
+# METHOD 1 (using scp)
 # After turning on your device, open a terminal and use the following commands 
 #    to copy the lv2 package to your device from another computer.
 # Note: Default password for patchboxOS is "blokaslabs"
 
 scp -r <pluginname>.lv2 patch@patchbox.local:/home/patch/.lv2/
+
+# Reboot your device and use the virtual pedalboard to drag an drop the new plugin into your pedalboard.
+```
+```
+# METHOD 2 (using wget)
+# After turning on your device, ssh to your device from a separate computer and pull/unzip the LV2 package from Github.
+# Note: Default password for patchboxOS is "blokaslabs"
+
+ssh patch@patchbox.local
+
+# Once connected to the device..
+cd ~/.lv2
+wget https://github.com/GuitarML/modep-plugins/releases/download/v1.0/DarkStar.lv2.zip
+unzip DarkStar.lv2.zip
+
+# For TS-M1N3
+wget https://github.com/GuitarML/modep-plugins/releases/download/v1.0/TS-M1N3.lv2.zip
+unzip TS-M1N3.lv2.zip
 
 # Reboot your device and use the virtual pedalboard to drag an drop the new plugin into your pedalboard.
 ```
