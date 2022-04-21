@@ -18,7 +18,7 @@ You can deploy these plugins to your MODEP device using one of the following met
 ```
 # METHOD 1 (using scp)
 # After turning on your device, open a terminal and use the following commands 
-#    to copy the lv2 package to your device from another computer.
+#    to copy the lv2 package to your device from another computer (after downloading from the Releases page).
 # Note: Default password for patchboxOS is "blokaslabs"
 
 scp -r <pluginname>.lv2 patch@patchbox.local:/home/patch/.lv2/
